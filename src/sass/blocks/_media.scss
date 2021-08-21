@@ -1,0 +1,110 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 700px;
+    }
+    .header__phone {
+        font-size: 16px;
+    }
+    .promo {
+        background-position: 32%;
+    }
+    .advantages {
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            :nth-child(3) {
+                margin-top: 10px;
+            }
+        }
+        &__text {
+            font-size: 15px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 500px;
+    }
+    .promo {
+        background-position: 32%;
+        &__wrapper {
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+        }
+        &__icon {
+            width: 130px;
+            font-size: 17px;
+        }
+    }
+    .header {
+        .block_hide {
+            display: none
+        }
+        &__logo {
+            width: 280px;
+        }
+        &__phone {
+            font-size: 22px;
+        }
+    }
+    .button {
+        width: 200px;
+        height: 45px;
+        font-size: 19px;
+        &_main {
+            width: 300px;
+            height: 50px;
+            font-size: 18px;
+            margin-top: 67px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            :nth-child(3) {
+                margin-top: 10px;
+            }
+        }
+        &__text {
+            font-size: 15px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 320px;
+    }
+    .promo {
+        background-position: 32%;
+        &__icons {
+            width: 360px;
+        }
+        &__icon {
+            img {
+                width: 45px;
+                height: 50px;
+            }
+        }
+    }
+    .header {
+        justify-content: center;
+        .block_hide2 {
+            display: none
+        }
+    }
+    .button {
+        width: 190px;
+    }
+    .advantages {
+        &__wrapper {
+            :nth-child(2) {
+                margin-top: 10px;
+        }
+            :nth-child(3) {
+                margin-top: 10px;
+        }
+    }
+}
+}
